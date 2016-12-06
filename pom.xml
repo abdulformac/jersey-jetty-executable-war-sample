@@ -278,6 +278,10 @@
                     </execution>
                 </executions>
             </plugin>
+          <configuration>
+          <serverId>nexus</serverId>
+          <nexusUrl>http://localhost:8088/nexus-2.14.1-01/content/repositories/snapshots/</nexusUrl>
+          </configuration>
              -->
             
 		</plugins>
